@@ -47,11 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Luca Properzi, the brain behind Notturno, serving as its founder and
+        lead developer. Drawing from my extensive experience as a freelancer and
+        a seasoned industry software developer, I established this company to
+        lend a reputable brand to all the hard work I've poured into my craft.
+        Whether your company is in need of a website or software to enhance
+        operational efficiency, we're the experts you can count on!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

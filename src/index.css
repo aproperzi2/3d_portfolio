@@ -13,6 +13,16 @@
   color-scheme: dark;
 }
 
+@font-face {
+  font-family: blame;
+  src: url(../src/assets/fonts/Blame-Z15z.ttf);
+}
+
+@font-face {
+  font-family: pixelify;
+  src: url(../src/assets/fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -34,19 +44,19 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #eaa540;
+  background: linear-gradient(-90deg, #eaa540 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #eaa540 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #4085ea 1.9%, #eaa540 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #4085ea 1.9%, #eaa540 97.5%);
 }
 
 .orange-text-gradient {
