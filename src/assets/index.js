@@ -34,6 +34,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import snippets from "./snippets.png";
 import merit from "./merit.png";
+import link from "./link.png";
+import jira from "./tech/jira.svg";
 
 export {
   logo,
@@ -69,4 +71,6 @@ export {
   improving,
   snippets,
   merit,
+  link,
+  jira,
 };

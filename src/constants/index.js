@@ -27,6 +27,7 @@ import {
   improving,
   snippets,
   merit,
+  jira,
 } from "../assets";
 
 export const navLinks = [
@@ -109,8 +110,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "jira",
+    icon: jira,
   },
   {
     name: "docker",
@@ -120,20 +121,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Front End Developer",
     company_name: "SAS",
     icon: sas,
     iconBg: "#fff",
     date: "March 2021 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Rewrote a legacy flash financial trading app. Converting their UI to use HTML5, JavaScript, Typescript and a third-party React component library.",
+      "Developed a variety of screens, widgets, and components on the application, often creating new features that were not existing in the previous application. Such as, type ahead, auto correct and query building.",
+      "Worked with the Product Owner and Stakeholders to help with the re-design of features and make decisions that were consistent with the custom framework.",
+      "Improved development and QA workflow resulting in short cycle times.",
+      "In the absense of our regular scrum master, I took on the role and deligated the team to project goals and deadlines which effectively kept our client in a state of assurance.",
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Software Developer",
     company_name: "Improving",
     icon: improving,
     iconBg: "#fff",
@@ -150,54 +152,45 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Luca joined the team straight out of school and quickly demonstrated an aptitude for learning and developing his software development skills. Luca has since progressed into an excellent Intermediate Software Developer!",
+    name: "Michael Le Feuvre",
+    designation: "Technical Lead and Senior Developer",
+    company: "SAS",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQHTu5fbSMu89A/profile-displayphoto-shrink_800_800/0/1516273981418?e=1701302400&v=beta&t=9dUD-VrnxCfqmSOw6TkOzXo2RsxO4H2mav6Sloqasrc",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: `I had the privilege of working closely with Luca during our time together at SAS, and I can unequivocally endorse him as an exceptional professional. Luca possesses first-rate technical skills and demonstrated an unwavering commitment to our team's success. Luca's standout qualities include his enthusiasm to accept new responsibilities and tackle challenges head-on. He would make a positive and immediate impact on any team he joined.`,
+    name: "Eric Gagnon",
+    designation: "Java and Database Developer, Agile Coach",
+    company: "SAS",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQHQQaUxgLlgsQ/profile-displayphoto-shrink_800_800/0/1683908445716?e=1701907200&v=beta&t=Rw7aRSxO-wGJq_Zl23u3FWqhVjYDaXhVs4RcxJm5bU8",
   },
 ];
 
 const projects = [
   {
     name: "Snippets Hair Co.",
-    description:
-      "Lacombe hair studio in central Alberta. This site was asked to be implemented with Squarespace because of preferable CMS.",
-    tags: [
-      {
-        name: "squarespace",
-        color: "blue-text-gradient",
-      },
-    ],
+    description: "Lacombe hair studio in central Alberta.",
+    // tags: [
+    //   {
+    //     name: "squarespace",
+    //     color: "blue-text-gradient",
+    //   },
+    // ],
     image: snippets,
     source_code_link: "https://www.snippetshairco.com/",
   },
   {
-    name: "Merit-Based Booking and Management",
-    description:
-      "MBBM is a music management and booking company based out of Calgary, Alberta. This site was asked to be implemented with Squarespace because of preferable CMS.",
-    tags: [
-      {
-        name: "squarespace",
-        color: "blue-text-gradient",
-      },
-    ],
+    name: "MBBM",
+    description: "Concert booking and management agency.",
+    // tags: [
+    //   {
+    //     name: "squarespace",
+    //     color: "blue-text-gradient",
+    //   },
+    // ],
     image: merit,
     source_code_link: "https://www.meritbasedbooking.com/",
   },
