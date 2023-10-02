@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  web,
   javascript,
   typescript,
   html,
@@ -12,15 +10,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   sas,
   wordpress,
@@ -29,6 +19,12 @@ import {
   merit,
   jira,
 } from "../assets";
+
+export const emailJSCreds = {
+  serviceId: "service_n7xw459",
+  templateId: "template_exvmqc8",
+  publicKey: "Q-jnFyhqapp5Qszax",
+};
 
 export const navLinks = [
   {
@@ -143,8 +139,8 @@ const experiences = [
     points: [
       "Software development consultant for the Calgary branch.",
       "Collaberating with clients to achieve high quality software solutions.",
-      "ImprovingU Champion - Running extra curricular work activities.",
       "Coordinating client needs to upper management.",
+      "ImprovingU Champion - Running extra curricular work activities.",
     ],
   },
 ];

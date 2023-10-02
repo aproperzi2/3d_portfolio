@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { emailJSCreds } from "../constants";
 
 // template_679grsq;
 // // service_n7xw459;
@@ -37,16 +38,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_n7xw459",
-        "template_679grsq",
+        emailJSCreds.serviceId,
+        emailJSCreds.templateId,
         {
           from_name: form.name,
-          to_name: "Notturno",
+          to_name: "Luca",
           from_email: form.email,
           to_email: "luca@notturno.ca",
           message: form.message,
         },
-        "Q-jnFyhqapp5Qszax"
+        emailJSCreds.publicKey
       )
       .then(
         () => {
