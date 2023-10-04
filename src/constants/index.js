@@ -18,6 +18,7 @@ import {
   snippets,
   merit,
   jira,
+  karlijnSnippets,
 } from "../assets";
 
 export const emailJSCreds = {
@@ -162,6 +163,13 @@ const testimonials = [
     company: "SAS",
     image:
       "https://media.licdn.com/dms/image/D5603AQHQQaUxgLlgsQ/profile-displayphoto-shrink_800_800/0/1683908445716?e=1701907200&v=beta&t=Rw7aRSxO-wGJq_Zl23u3FWqhVjYDaXhVs4RcxJm5bU8",
+  },
+  {
+    testimonial: `I had Luca build my website for my salon, he was absolutely amazing to work with and so accommodating. He brought my vision to life and it's more than I could have ever imagined, we get so many compliments on our website and it's so user friendly! Thanks again Luca!`,
+    name: "Karlijn Janssen",
+    designation: "Salon Owner and Hair Stylist",
+    company: "Snippets Hair Co.",
+    image: karlijnSnippets,
   },
 ];
 

@@ -36,6 +36,7 @@ import snippets from "./snippets.png";
 import merit from "./merit.png";
 import link from "./link.png";
 import jira from "./tech/jira.svg";
+import karlijnSnippets from "./testimonials/karlijn.jpeg";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   merit,
   link,
   jira,
+  karlijnSnippets,
 };

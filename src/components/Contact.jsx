@@ -44,7 +44,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Luca",
           from_email: form.email,
-          to_email: "luca@notturno.ca",
+          to_email: "abramoproperzi@gmail.com",
           message: form.message,
         },
         emailJSCreds.publicKey
